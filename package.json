@@ -36,6 +36,7 @@
 {
   "dependencies": {
     "discord.js": "^11.4.2",
+    "ffmpeg": "0.0.4",
     "get-youtube-id": "^1.0.0",
     "queue": "^4.5.0",
     "simple-youtube-api": "^5.0.2",
