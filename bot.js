@@ -7,7 +7,7 @@ const package = ('package.json');
 const yt = require('ytdl-core');
 const prefix = (".")
 const child_process = require("child_process");
-const ownerid = ('280749272498962432')
+const ownerid = ('340991135264800778')
 const canvas = require("canvas");
 const fs = require('fs')
 const moment = require("moment");
@@ -1150,7 +1150,8 @@ Rocket.on('message', msg => {
 
 
 
-    Rocket.login("NDgwODQ2MzQyMjE0OTA5OTYy.DltuqQ.KqE0MKkgPKKW1f9fv_YxjTw0fEA");
+    Rocket.login(process.env.BOT_TOKEN);
+
 
 
 
